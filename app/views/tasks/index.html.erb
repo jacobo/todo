@@ -1,7 +1,7 @@
 <%= request.remote_ip %>
 <%= request.remote_addr %>
 <%= `hostname` %>
-<%= debug env %>
+<%= debug request.env %>
 <div id='tabs'>
 	<ul>
 		<% @count = 1%>
